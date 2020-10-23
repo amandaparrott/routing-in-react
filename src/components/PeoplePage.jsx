@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import PeopleCard from './PeopleCard.jsx'
+import './index.css';
 
 
 class PeoplePage extends Component {

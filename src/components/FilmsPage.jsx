@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import FilmCard from "./FilmCard.jsx";
+import './index.css';
 
 
 class FilmsPage extends Component {
@@ -19,6 +20,7 @@ class FilmsPage extends Component {
 
   render() {
     return (
+      
       <main>
         <section className="container my-2 justify-content-center">
           {this.state.films.map((film, id) => (
@@ -26,6 +28,7 @@ class FilmsPage extends Component {
           ))}
         </section>
       </main>
+    
     );
   }
 }
