@@ -5,7 +5,8 @@ import PeoplePage from "./PeoplePage.jsx";
 import HomePage from "./HomePage.jsx";
 import Header from "./Header.jsx";
 import FilmId from "./FilmId.jsx";
-import PeopleId from "./PeopleId.jsx"
+import PeopleId from "./PeopleId.jsx";
+import './index.css';
 
 class App extends Component {
   render() {

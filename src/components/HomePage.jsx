@@ -8,7 +8,7 @@ let HomePage = () => {
           <div className="card-header text-center">Welcome to Studio Ghibli Wiki</div>
           <div className="card-body">
             <blockquote className="blockquote mb-0 text-center">
-              <p>Use the buttons above to navigate through the site to learn more about Studio Ghibli products, characters, and more. </p>
+              <p>Use the buttons above to navigate through the site to learn more about Studio Ghibli productions, characters, and more. </p>
             </blockquote>
           </div>
         </div>

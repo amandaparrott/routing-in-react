@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const PeopleCard = (props) => {
     return (
       <div>
-        <div className="card row col-12 my-4 shadow d-block">
+        <div className="card row my-4 mx-4 shadow">
           <div className="card-header text-center">{props.person.name}</div>
           <div className="card-body text-center mx-4">
             <blockquote className="blockquote mb-0">
